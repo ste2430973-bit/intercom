@@ -1,0 +1,83 @@
+Key pair exported to stores/proof-lane-msb/db/keypair.json
+Key pair exported to stores\proof-lane\db\keypair.json
+=============== STARTING MSB ===============
+State initialization...
+Network initialization...
+
+#####################################################################################
+# MSB Address:    trac1f6p7m32xk7gpfrmg5v6daeg0h8tle3w7ypcxqtrjdkkrlwtswj4s908gc7  #
+# MSB Writer:     2cacca2ee35bed5dc42582cae2ab14f94c58c5d12e616274b7a0cefcc0fd7106 #
+#####################################################################################
+Channel: 0000trac0network0msb0mainnet0000
+isIndexer: false
+isWriter: false
+MSB Unsigned Length: 0
+MSB Signed Length: 0
+Balance: 0
+=============== STARTING PEER ===============
+
+######################################################################################
+# Peer Address:     999f1380a0b5f56e244720e6286715fca3ed1771a0990deb1bab4cd8ecfbdbb8 #
+# Peer Writer:      7c19e7d420e1e7add89b92ccd06d21ddb48b22d9e32ccc32603482374ac2e9f8 #
+######################################################################################
+
+isIndexer: true
+isWriter: true
+
+
+====================INTERCOM ====================
+MSB network bootstrap: acbc3a4344d3a804101d40e53db1dda82b767646425af73599d4cd6577d69685
+MSB channel: 0000trac0network0msb0mainnet0000
+MSB store: stores\proof-lane-msb
+Peer store: stores\proof-lane
+Peer DHT bootstrap nodes: 127.0.0.1:49737
+Peer subnet bootstrap: 7c19e7d420e1e7add89b92ccd06d21ddb48b22d9e32ccc32603482374ac2e9f8
+Peer subnet channel: proof-delivery-board
+Peer pubkey (hex): 999f1380a0b5f56e244720e6286715fca3ed1771a0990deb1bab4cd8ecfbdbb8
+Peer trac address (bech32m): trac1nx038q9qkh6kufz8yrnzsec4lj3769m35zvsm6cm4dxd3m8mmwuqal7apq
+Peer writer key (hex): 7c19e7d420e1e7add89b92ccd06d21ddb48b22d9e32ccc32603482374ac2e9f8
+Sidechannel entry: 0000intercom
+Sidechannel extras: proof-lane-room
+================================================================
+
+Sidechannel: ready
+[sidechannel:0000intercom] 2e81df46d71bd9c92f2e8a4734425965e3391a5add832202297d6afe86382803: {
+  type: 'agent.announce',
+  name: 'Tracy Tester (operator)',
+  peer: '2e81df46d71bd9c92f2e8a4734425965e3391a5add832202297d6afe86382803',
+  address: null,
+  capabilities: [ 'operator', 'chat', 'monitoring' ],
+  note: 'Claw2Claw Control Centre',
+  ts: 1771941628771,
+  version: '1.0.0',
+  protocol: 'intercom-p2p-v1'
+}
+[sidechannel:0000intercom] d6f3f29a327360dcf29af0e0f311df40f8e0e3196d14b1060ec95d71c87d4bcd: {
+  type: 'agent.announce',
+  name: 'Operator (operator)',
+  peer: 'd6f3f29a327360dcf29af0e0f311df40f8e0e3196d14b1060ec95d71c87d4bcd',
+  address: null,
+  capabilities: [ 'operator', 'chat', 'monitoring' ],
+  note: 'Claw2Claw Control Centre',
+  ts: 1771941669464,
+  version: '1.0.0',
+  protocol: 'intercom-p2p-v1'
+}
+[sidechannel:0000intercom] 2e81df46d71bd9c92f2e8a4734425965e3391a5add832202297d6afe86382803: {
+  type: 'agent.announce',
+  name: 'Tracy Tester (operator)',
+  peer: '2e81df46d71bd9c92f2e8a4734425965e3391a5add832202297d6afe86382803',
+  address: null,
+  capabilities: [ 'operator', 'chat', 'monitoring' ],
+  note: 'Claw2Claw Control Centre',
+  ts: 1771941672622,
+  version: '1.0.0',
+  protocol: 'intercom-p2p-v1'
+}
+
+[ WARNING ] To complete Pear installation, prepend the following to the system Path environment variable:
+[sanitized-home]\AppData\Roaming\pear\bin
+Until then, this executable spawns the `pear` binary.
+Fix automatically with: pear run pear://runtime
+[sidechannel] welcome required for non-entry channels; entry "0000intercom" is open and does not require owner/welcome.
+NetworkMessages: Failed to handle incoming message: Signature in the response verification failed.

@@ -23,6 +23,23 @@ It includes setup steps, required runtime, first‑run decisions, and operationa
 Use the **Pear runtime only** (never native node).  
 Follow the steps in `SKILL.md` to install dependencies, run the admin peer, and join peers correctly.
 
+## Competition Fork Profile
+- Fork URL: `https://github.com/ste2430973-bit/intercom`
+- Profile ID: `lane_board` (`Intercom Delivery Lane Board`)
+- Naming mode: `compact`
+- Proof style: `bootstrap_snapshot`
+- Trac payout address: `trac1rf9vlnfnlqw0wmtvxsvwcn5sgfuueje7k0ueltcpz4pne6979k2s7j43e3`
+- Unique mutating command:
+  - `/tx --command '{"op":"sync_delivery_lane","status":"MVP ready","note":"first demo"}'`
+- Unique query command:
+  - `/tx --command "peek_delivery_lane"`
+- Proof artifacts:
+  - `proof/run.log`
+  - `proof/run-screenshot.png`
+  - `proof/command-mapping.log`
+  - `proof/bootstrap-head.log`
+  - `proof/README.md`
+
 ## Architecture (ASCII map)
 Intercom is a single long-running Pear process that participates in three distinct networking "planes":
 - **Subnet plane**: deterministic state replication (Autobase/Hyperbee over Hyperswarm/Protomux).
